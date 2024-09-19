@@ -10,7 +10,8 @@
 <!--        <constructor-arg value="14" />-->
 
 <!--        <property name="age" value="12"></property>-->
-        <property name="laptop" ref="lap1" />
+<!--        <property name="laptop" ref="lap1" />-->
+        <constructor-arg ref="lap1" />
     </bean>
     <bean id="lap1" class="com.namenets.Laptop"></bean>
 

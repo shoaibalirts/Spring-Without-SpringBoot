@@ -7,8 +7,8 @@ public class Dev {
         System.out.println("Dev constructor is created.");
     }
 
-    public Dev(int age) {
-        this.age = age;
+    public Dev(Laptop laptop) {
+        this.laptop = laptop;
         System.out.println("Parameterized constructor is called");
     }
 
