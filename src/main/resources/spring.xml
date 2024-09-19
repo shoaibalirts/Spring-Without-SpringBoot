@@ -7,8 +7,11 @@
 
 
     <bean id="dev" class="com.namenets.Dev">
-        <property name="age" value="24" />
+<!--        <constructor-arg value="14" />-->
+
+<!--        <property name="age" value="12"></property>-->
+        <property name="laptop" ref="lap1" />
     </bean>
-    <bean id="laptop" class="com.namenets.Laptop"></bean>
+    <bean id="lap1" class="com.namenets.Laptop"></bean>
 
 </beans>

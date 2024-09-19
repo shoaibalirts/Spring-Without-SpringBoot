@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
         ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
         Dev obj=(Dev) context.getBean("dev");
-        System.out.println(obj.getAge());
-//        obj.build();
+//        System.out.println(obj.getAge());
+        obj.build();
     }
 }
