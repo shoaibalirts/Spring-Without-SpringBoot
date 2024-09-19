@@ -6,13 +6,16 @@
 
 
 
-    <bean id="dev" class="com.namenets.Dev">
+    <bean id="dev" class="com.namenets.Dev" autowire="byName">
 <!--        <constructor-arg value="14" />-->
 
 <!--        <property name="age" value="12"></property>-->
 <!--        <property name="laptop" ref="lap1" />-->
-        <constructor-arg ref="lap1" />
+<!--        <constructor-arg ref="lap1" />-->
+<!--        <property name="comp" ref="lap1" />-->
     </bean>
-    <bean id="lap1" class="com.namenets.Laptop"></bean>
+    <bean id="comp" class="com.namenets.Laptop"></bean>
+    <bean id="desk1" class="com.namenets.Desktop"></bean>
+
 
 </beans>
