@@ -6,8 +6,9 @@
 
 
 
-    <bean id="dev" class="com.namenets.Dev"></bean>
+    <bean id="dev" class="com.namenets.Dev">
+        <property name="age" value="24" />
+    </bean>
     <bean id="laptop" class="com.namenets.Laptop"></bean>
-    <bean id="dev1" class="com.namenets.Dev"></bean>
 
 </beans>
